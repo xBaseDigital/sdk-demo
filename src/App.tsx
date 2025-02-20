@@ -4,9 +4,9 @@ function App() {
     try {
       const checkoutResponse =  await window.MyCheckoutSDK.checkout({
         merchantLocationId: '9fe8b5f5-4d42-4557-8017-a2b38e7a696e', // Example data
-        merchantOrderId: 'order12s132',
+        merchantOrderId: new Date().toString(),
         title: 'Store Title',
-        description: 'Order #1123',
+        description: 'Order #112s3',
         amount: 100,
         currency: 'GBP',
         email: 'tech@xbd.group',
@@ -14,6 +14,7 @@ function App() {
         cancelUrl: 'https://your-site.com/cancel',
         callbackUrl: 'https://your-site.com/callback',
       });
+      
       console.log('Checkout initiated successfully:', checkoutResponse);
     } catch (err) {
       console.error('Checkout failed:', err);
