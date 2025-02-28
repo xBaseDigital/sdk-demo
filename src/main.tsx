@@ -1,9 +1,8 @@
-// index.tsx or main.tsx
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App.tsx';
-import { initGlobalSdk } from '../sdk/checkout-sdk.es'; // Adjust the path as needed
+import { initGlobalSdk } from 'xbd-sdk-checkout-test';
 
 window.MyCheckoutSDK = initGlobalSdk({
   grant_type: 'client_credentials',
@@ -11,7 +10,6 @@ window.MyCheckoutSDK = initGlobalSdk({
   client_secret: 'dda1f206-c060-4136-ac89-30f3995f7330',
   merchantLocationId: '9fe8b5f5-4d42-4557-8017-a2b38e7a696e',
 });
-
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
