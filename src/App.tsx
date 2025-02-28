@@ -10,6 +10,7 @@ function App() {
         amount: 1,
         currency: 'GBP',
         email: 'tech@xbd.group',
+        screening: true,
         acceptUrl: 'https://your-site.com/accept',
         cancelUrl: 'https://your-site.com/cancel',
         callbackUrl: 'https://your-site.com/callback',
@@ -19,7 +20,6 @@ function App() {
     } catch (err) {
       console.error('Checkout failed:', err);
     } finally {
-      console.error('Checkout :');
     }
   };
 

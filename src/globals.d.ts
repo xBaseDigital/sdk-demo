@@ -19,4 +19,4 @@ declare global {
 }
 
 // This is necessary for TypeScript to treat the file as a module and apply its changes.
-export {};
+export { };
