@@ -5348,10 +5348,10 @@ ws@~8.17.1:
   resolved "https://registry.npmjs.org/ws/-/ws-8.17.1.tgz"
   integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
 
-xbd-sdk-checkout-test@^1.0.0-beta.12:
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/xbd-sdk-checkout-test/-/xbd-sdk-checkout-test-1.0.0-beta.12.tgz#3bc2d7fcad27b7d05b44497b611a290c835e724f"
-  integrity sha512-lYhyg1qw4J6MZy5xuJYbUh8nRqy6Int5M9nAV7wn1LPBdU6psh4VFOTJX0iH+4y24CCrkcyrQvzlESJhCZD3yQ==
+xbd-sdk-checkout@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/xbd-sdk-checkout/-/xbd-sdk-checkout-1.0.3.tgz#85713a88d1d8d5b8885bdcfc00611e986e116575"
+  integrity sha512-0JfzHOfJXU4JoE5sS4uO3L4kYKb0TEJoA8Fk45JmUFJprnLyqNO7PJw9tPsGGc9gZgFrLB7cvs/uCf21WV79nA==
   dependencies:
     "@tailwindcss/vite" "^4.0.1"
     "@tanstack/react-query" "^5.66.9"

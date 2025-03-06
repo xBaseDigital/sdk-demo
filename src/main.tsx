@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App.tsx';
-import { initGlobalSdk } from 'xbd-sdk-checkout-test';
+import { initGlobalSdk } from 'xbd-sdk-checkout';
 
 window.MyCheckoutSDK = initGlobalSdk({
   grant_type: 'client_credentials',
